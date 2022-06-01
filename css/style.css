@@ -1,0 +1,267 @@
+@font-face {
+    font-family:OpenSans;
+    src:url('../OpenSans/subset-OpenSans.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+   }
+
+form {
+    height: 584px;
+    padding: 19px 16px 118px 32px;
+    border-radius: 8px;
+    box-shadow: 0 0 26px 0 #8ea1bc;
+    background-color: #fff;
+    margin: 80px 25%;
+}
+
+form h2 {
+    object-fit: contain;
+    font-family: OpenSans;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.97;
+    letter-spacing: normal;
+    color: #007cff;
+    margin-top: 10px;
+}
+
+form .header i, h2{
+    display: inline-block;
+}
+
+form .header i{
+    float: right;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle, #e4eeff, #e4eeff 66%, transparent 66%);
+    color: #006bff;
+    cursor: pointer;
+}
+
+
+form .shape {
+    width: 35px;
+    height: 35px;
+    margin: 0 0 76px 155px;
+    padding: 10.5px;
+    background-color: blue;
+}
+
+.content{
+    padding: 80px 25%;
+    position: relative;
+}
+
+.content > input{
+    padding: 10px 0 9px 12px;
+    border-radius: 6px;
+    border: solid 1px #a5c9e4;
+    margin-bottom: 20px;
+    background-color: #fff;
+    color: #1c1c1c;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1c1c1c;
+    height: 38px;
+    width: 100%;
+}
+
+.content > .forget-password {
+    position: absolute;
+    border: none;
+    margin: 2px 9px 6px ;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    background-color: #fff;
+    right: 25%;
+    padding: 5px 0 0 5px;
+    height: 35px;
+    border-left: solid 1px #a5c9e4;
+}
+
+.login-maintain > button{
+    border-radius: 17.5px;
+    background-color: #007cff;
+    border: none;
+    float: right;
+    padding: 8px 42px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+}
+
+.login-maintain > input{
+    margin-top: 12px;
+}
+
+.login-maintain{
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #1c1c1c;
+    margin-top: 10px;
+}
+
+.piepMe{
+    margin-top: 48px;
+}
+
+.piepMe > p{
+    display: inline-block;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #1c1c1c;
+    margin-right: 13px;
+}
+.piepMe > a{
+    padding: 8px 21px;
+    border-radius: 17.5px;
+    background-image: linear-gradient(to right, #ff7200, #ff6122, #ff5035, #ff3f46, #ff2d55);
+    color: white;
+}
+
+.piepMe > a > i{
+    margin-right: 5px;
+}
+
+.line{
+    margin-top: 30px;
+}
+
+hr {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #1c1c1c;
+    text-align: center;
+}
+
+.line > hr{
+    border-top: 1px solid black;
+}
+
+hr:after {
+    background: #fff;
+    content: 'HOẶC';
+    padding: 0 4px;
+    position: relative;
+    top: -10px;
+}
+
+.free-registry{
+    text-align: center;
+    width: 100%;
+    border-radius: 17.5px;
+    background-color: #007cff;
+    color: white;
+    padding: 8px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .content{
+        padding: 80px 10%;
+    }
+    .content > .forget-password {
+        right: 15%;
+    }
+}
+
+@media (max-width: 1200px) {
+    form{
+        margin: 80px 15%;
+    }
+}
+
+@media (max-width: 992px) {
+    form{
+        margin: 80px 10%;
+    }
+}
+
+@media (max-width: 520px) {
+    .login-maintain > button{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 450px) {
+    .content > .forget-password {
+        position: unset;
+        border-left: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 410px) {
+    .piepMe > p{
+        display: block;
+        text-align: center;
+    }
+
+    .piepMe > a{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .piepMe{
+        margin-top: 10px;
+    }
+
+    .content{
+        padding-top: 40px;
+    }
+}
